@@ -1,0 +1,27 @@
+object Form1: TForm1
+  Left = 256
+  Height = 70
+  Top = 169
+  Width = 204
+  Caption = 'Form1'
+  ClientHeight = 70
+  ClientWidth = 204
+  LCLVersion = '2.0.6.0'
+  object Button2: TButton
+    Left = 64
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 40
+    Width = 184
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+end
